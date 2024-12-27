@@ -68,25 +68,25 @@ Install plugins: Start NeoVim, the plugins specified in the configuration will b
     
 The configuration files for the plugins and the core settings are organized as follows:
     
-  - [init.lua](https://github.com/RodrigoRalhaMoreira/neovim-config/blob/main/init.lua): Entry point for all plugins and configurations.
+  - [init.lua](https://github.com/RodrigoRalhaMoreira/neovim-config/blob/master/init.lua): Entry point for all plugins and configurations.
 - **Core Settings**:
-  - [lua/rodrigo/core/colorscheme.lua](https://github.com/RodrigoRalhaMoreira/neovim-config/blob/main/lua/rodrigo/core/colorscheme.lua): Defines the colorscheme for NeoVim.
-  - [lua/rodrigo/core/keymaps.lua](https://github.com/RodrigoRalhaMoreira/neovim-config/blob/main/lua/rodrigo/core/keymaps.lua): Specifies keymaps for general operations and plugins.
-  - [lua/rodrigo/core/options.lua](https://github.com/RodrigoRalhaMoreira/neovim-config/blob/main/lua/rodrigo/core/options.lua): Configures various editor options, including line numbers, indentation, search settings, cursor line, appearance, backspace behavior, clipboard settings, and split windows behavior.
+  - [lua/rodrigo/core/colorscheme.lua](https://github.com/RodrigoRalhaMoreira/neovim-config/blob/master/lua/rodrigo/core/colorscheme.lua): Defines the colorscheme for NeoVim.
+  - [lua/rodrigo/core/keymaps.lua](https://github.com/RodrigoRalhaMoreira/neovim-config/blob/master/lua/rodrigo/core/keymaps.lua): Specifies keymaps for general operations and plugins.
+  - [lua/rodrigo/core/options.lua](https://github.com/RodrigoRalhaMoreira/neovim-config/blob/master/lua/rodrigo/core/options.lua): Configures various editor options, including line numbers, indentation, search settings, cursor line, appearance, backspace behavior, clipboard settings, and split windows behavior.
 - **Plugin Configuration Files**:
-  - [lua/rodrigo/plugins/lualine.lua](https://github.com/RodrigoRalhaMoreira/neovim-config/blob/main/lua/rodrigo/plugins/lualine.lua): Configures lualine for status line customization.
-  - [lua/rodrigo/plugins/nvim-cmp.lua](https://github.com/RodrigoRalhaMoreira/neovim-config/blob/main/lua/rodrigo/plugins/nvim-cmp.lua): Configures nvim-cmp for auto-completion and integrates luasnip for snippets and lspkind for language-specific icons.
-  - [lua/rodrigo/plugins/nvim-tree.lua](https://github.com/RodrigoRalhaMoreira/neovim-config/blob/main/lua/rodrigo/plugins/nvim-tree.lua): Sets up and customizes nvim-tree for file navigation.
-  - [lua/rodrigo/plugins/nvim-web-devicons.lua](https://github.com/RodrigoRalhaMoreira/neovim-config/blob/main/lua/rodrigo/plugins/nvim-web-devicons.lua): Sets up and customizes nvim-web-devicons for sidebar file icons.
-  - [lua/rodrigo/plugins/telescope.lua](https://github.com/RodrigoRalhaMoreira/neovim-config/blob/main/lua/rodrigo/plugins/telescope.lua): Configures the Telescope plugin for fuzzy finding and picker navigation.
-  - [lua/rodrigo/plugins/treesitter.lua](https://github.com/RodrigoRalhaMoreira/neovim-config/blob/main/lua/rodrigo/plugins/treesitter.lua): Sets up nvim-treesitter for syntax highlighting and specifies parser languages.
-  - [lua/rodrigo/plugins/autopairs.lua](https://github.com/RodrigoRalhaMoreira/neovim-config/blob/main/lua/rodrigo/plugins/autopairs.lua): Sets up nvim-autopairs to automatically pair characters like brackets.
-  - [lua/rodrigo/plugins/comment.lua](https://github.com/RodrigoRalhaMoreira/neovim-config/blob/main/lua/rodrigo/plugins/comment.lua): Sets up the Comment plugin for easy commenting/uncommenting of code lines.
-  - [lua/rodrigo/plugins/copilot.lua](https://github.com/RodrigoRalhaMoreira/neovim-config/blob/main/lua/rodrigo/plugins/copilot.lua): Configures the copilot.vim plugin for AI-powered code suggestions.
-  - [lua/rodrigo/plugins/gitsigns.lua](https://github.com/RodrigoRalhaMoreira/neovim-config/blob/main/lua/rodrigo/plugins/gitsigns.lua): Configures the gitsigns.nvim plugin, which shows Git diff markers.
+  - [lua/rodrigo/plugins/lualine.lua](https://github.com/RodrigoRalhaMoreira/neovim-config/blob/master/lua/rodrigo/plugins/lualine.lua): Configures lualine for status line customization.
+  - [lua/rodrigo/plugins/nvim-cmp.lua](https://github.com/RodrigoRalhaMoreira/neovim-config/blob/master/lua/rodrigo/plugins/nvim-cmp.lua): Configures nvim-cmp for auto-completion and integrates luasnip for snippets and lspkind for language-specific icons.
+  - [lua/rodrigo/plugins/nvim-tree.lua](https://github.com/RodrigoRalhaMoreira/neovim-config/blob/master/lua/rodrigo/plugins/nvim-tree.lua): Sets up and customizes nvim-tree for file navigation.
+  - [lua/rodrigo/plugins/nvim-web-devicons.lua](https://github.com/RodrigoRalhaMoreira/neovim-config/blob/master/lua/rodrigo/plugins/nvim-web-devicons.lua): Sets up and customizes nvim-web-devicons for sidebar file icons.
+  - [lua/rodrigo/plugins/telescope.lua](https://github.com/RodrigoRalhaMoreira/neovim-config/blob/master/lua/rodrigo/plugins/telescope.lua): Configures the Telescope plugin for fuzzy finding and picker navigation.
+  - [lua/rodrigo/plugins/treesitter.lua](https://github.com/RodrigoRalhaMoreira/neovim-config/blob/master/lua/rodrigo/plugins/treesitter.lua): Sets up nvim-treesitter for syntax highlighting and specifies parser languages.
+  - [lua/rodrigo/plugins/autopairs.lua](https://github.com/RodrigoRalhaMoreira/neovim-config/blob/master/lua/rodrigo/plugins/autopairs.lua): Sets up nvim-autopairs to automatically pair characters like brackets.
+  - [lua/rodrigo/plugins/comment.lua](https://github.com/RodrigoRalhaMoreira/neovim-config/blob/master/lua/rodrigo/plugins/comment.lua): Sets up the Comment plugin for easy commenting/uncommenting of code lines.
+  - [lua/rodrigo/plugins/copilot.lua](https://github.com/RodrigoRalhaMoreira/neovim-config/blob/master/lua/rodrigo/plugins/copilot.lua): Configures the copilot.vim plugin for AI-powered code suggestions.
+  - [lua/rodrigo/plugins/gitsigns.lua](https://github.com/RodrigoRalhaMoreira/neovim-config/blob/master/lua/rodrigo/plugins/gitsigns.lua): Configures the gitsigns.nvim plugin, which shows Git diff markers.
 - **Language Server Protocol (LSP) Configuration Files**:
-  - [lua/rodrigo/plugins/lsp/lspconfig.lua](https://github.com/RodrigoRalhaMoreira/neovim-config/blob/main/lua/rodrigo/plugins/lsp/lspconfig.lua): Configures the lspconfig plugin for LSP support and the cmp-nvim-lsp for autocompletion. It also specifies LSP servers for specific languages.
-  - [lua/rodrigo/plugins/lsp/lspsaga.lua](https://github.com/RodrigoRalhaMoreira/neovim-config/blob/main/lua/rodrigo/plugins/lsp/lspsaga.lua): Configures the lspsaga plugin for a UI for LSP interactions.
-  - [lua/rodrigo/plugins/lsp/mason.lua](https://github.com/RodrigoRalhaMoreira/neovim-config/blob/main/lua/rodrigo/plugins/lsp/mason.lua): Configures the mason plugin for managing language servers and linters. It also configures mason-lspconfig and mason-null-ls for interaction with lspconfig and null-ls respectively.
+  - [lua/rodrigo/plugins/lsp/lspconfig.lua](https://github.com/RodrigoRalhaMoreira/neovim-config/blob/master/lua/rodrigo/plugins/lsp/lspconfig.lua): Configures the lspconfig plugin for LSP support and the cmp-nvim-lsp for autocompletion. It also specifies LSP servers for specific languages.
+  - [lua/rodrigo/plugins/lsp/lspsaga.lua](https://github.com/RodrigoRalhaMoreira/neovim-config/blob/master/lua/rodrigo/plugins/lsp/lspsaga.lua): Configures the lspsaga plugin for a UI for LSP interactions.
+  - [lua/rodrigo/plugins/lsp/mason.lua](https://github.com/RodrigoRalhaMoreira/neovim-config/blob/master/lua/rodrigo/plugins/lsp/mason.lua): Configures the mason plugin for managing language servers and linters. It also configures mason-lspconfig and mason-null-ls for interaction with lspconfig and null-ls respectively.
 
 </details>
