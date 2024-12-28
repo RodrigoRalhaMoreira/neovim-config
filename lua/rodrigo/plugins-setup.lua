@@ -22,7 +22,7 @@ require("lazy").setup({
 	"nvim-lua/plenary.nvim",
 
 	--Colorscheme
-	"bluz71/vim-nightfly-guicolors", --preferred coloscheme
+	{"bluz71/vim-nightfly-guicolors", commit="2e982ed8566bc087b0a905834092e5120406860e"}, --preferred coloscheme
 	"ellisonleao/gruvbox.nvim",
 	{ "catppuccin/nvim", name = "catppuccin", priority = 1000 },
 	"navarasu/onedark.nvim",
@@ -79,14 +79,14 @@ require("lazy").setup({
 	"williamboman/mason-lspconfig.nvim", -- bridges gap b/w mason & lspconfig
 
 	-- configuring lsp servers, linters and formatters
-	"neovim/nvim-lspconfig", -- easily configure language servers
+	{"neovim/nvim-lspconfig", commit="b54abeb8b90af1cb4592ce937ee95ed8cb457801"}, -- easily configure language servers
 	"hrsh7th/cmp-nvim-lsp", -- for autocompletion
-	{ "glepnir/lspsaga.nvim", branch = "main" }, -- enhanced lsp uis
-	"jose-elias-alvarez/typescript.nvim", -- additional functionality for typescript server (e.g. rename file & update imports)
+	{ "nvimdev/lspsaga.nvim", branch = "main" }, -- enhanced lsp uis
+	{"jose-elias-alvarez/typescript.nvim", commit="de304087e6e49981fde01af8ccc5b21e8519306f"}, -- additional functionality for typescript server (e.g. rename file & update imports)
 	"onsails/lspkind.nvim", -- vs-code like icons for autocompletion
 
 	-- formatting & linting
-	"jose-elias-alvarez/null-ls.nvim", -- configure formatters & linters
+	{"jose-elias-alvarez/null-ls.nvim", commit="db09b6c691def0038c456551e4e2772186449f35"}, -- configure formatters & linters
 	"jayp0521/mason-null-ls.nvim", -- bridges gap b/w mason & null-ls
 	"vyperlang/vim-vyper", -- vyper syntax HLer
 
